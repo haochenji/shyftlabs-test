@@ -133,7 +133,6 @@ const AddNewResult = () => {
       <Button disabled={unfinished} variant="contained" color="primary" onClick={handleSubmit}>
         Add Score
       </Button>
-      <NotificationContainer/>
     </Box>
   )
 }

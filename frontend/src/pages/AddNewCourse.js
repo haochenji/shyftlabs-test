@@ -63,7 +63,6 @@ const AddNewCourse = () => {
       <Button disabled={unfinished} variant="contained" color="primary" onClick={handleSubmit}>
         Add Course
       </Button>
-      <NotificationContainer/>
     </Box>
   )
 }

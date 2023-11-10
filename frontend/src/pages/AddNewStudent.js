@@ -70,7 +70,7 @@ const AddNewStudent = () => {
       .post(url+'/api/students/', body)
       .then(res => NotificationManager.success(res.data.first_name+" entered", 'Success'))
       .catch(error => console.error(error));
-
+      
     setFirstName('');
     setFamilyName('');
     setEmail('');
@@ -134,7 +134,6 @@ const AddNewStudent = () => {
       <Button disabled={unfinished} variant="contained" color="primary" onClick={handleSubmit}>
         Add Student
       </Button>
-      <NotificationContainer/>
     </Box>
   )
 }
